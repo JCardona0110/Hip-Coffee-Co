@@ -12,9 +12,39 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Exo+2&family=Mooli&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/bec6234410.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
-		<h1>hello</h1>
 
+		<h1 class="title fa fa-duotone fa-mug-hot fa-beat -2xl"
+			style="--fa-primary-color: #433618; --fa-secondary-color: #433618">
+			Hip Coffee Co.
+		</h1>			
+
+		<h3 class="login">Login to order</h3>
+		<a class="create" href="#">Or create an account</a>
+		<section class="loginContainer">
+		<form class="loginCredentials" action="js/main.js" method="post"><input type="text" placeholder="Username">
+		<form class="loginCredentials" action="js/main.js" method="post"><input type="password" placeholder="Password">
+		</form>
+		
+		<button class="loginButton">Login</button>	
+		</section>
+		<a class="forgot" href="#">Forgot username or password</a>			
+		<h3 class="altLogin">Login with Google or Facebook</h3>
+		<section class="buttonContainer">
+			<button class="altButton googleLogin fab fa-google"> Google</button>
+
+			<button class="altButton facebookLogin fab fa-facebook"> Facebook</button>
+		</section>
 	</body>
 </html>

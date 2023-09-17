@@ -10,7 +10,7 @@ html {
 
 /* Clear fix hack */
 .clearfix:after {
-	content: '.';
+	content: ".";
 	display: block;
 	clear: both;
 	visibility: hidden;
@@ -21,12 +21,88 @@ html {
 .clear {
 	clear: both;
 }
-
+//!fonts
+// font-family: 'Alegreya Sans', sans-serif;
+// font-family: 'Exo 2', sans-serif;
+// font-family: 'Mooli', sans-serif;
 /******************************************
   /* BASE STYLES
   /*******************************************/
 
 body {
+	font-family: "Mooli", sans-serif;
+	width: 100%;
+	text-align: center;
+	color: #583939;
+	background-color: rgb(231, 185, 157);
+}
+
+.title {
+	margin: auto;
+	height: 180px;
+	padding-top: 30%;
+	color: #583939;
+  white-space: nowrap;
+	word-wrap: normal;
+	font-size: 1.7rem;
+}
+.login {
+	padding-top: 10%;
+}
+
+.create{
+	display: block;
+	padding-bottom: 20px;
+	color: inherit;
+}
+
+.loginContainer{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+
+.loginButton{
+	background-color: #583939;
+	border: 1px black solid;
+	color: rgb(235, 211, 173);
+}
+
+.forgot{
+	display: block;
+	padding-top: 20px;
+	color: inherit;
+}
+
+.altLogin {
+	padding-top: 20%;
+}
+
+.buttonContainer {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	min-width: fit-content;
+	margin: auto;
+	white-space: nowrap;
+	
+}
+.altButton{
+	background-color: #583939;
+	color:rgb(235, 211, 173) ;
+}
+
+.buttonContainer{
+
+}
+.googleLogin{
+
+}
+
+
+.facebookLogin{
+
 }
 
 /******************************************
