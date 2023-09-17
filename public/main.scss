@@ -50,11 +50,6 @@ body {
 	padding-top: 10%;
 }
 
-.create{
-	display: block;
-	padding-bottom: 20px;
-	color: inherit;
-}
 
 .loginContainer{
 	display: flex;
@@ -70,6 +65,12 @@ body {
 }
 
 .forgot{
+	display: block;
+	padding-top: 20px;
+	color: inherit;
+}
+
+.create{
 	display: block;
 	padding-top: 20px;
 	color: inherit;
